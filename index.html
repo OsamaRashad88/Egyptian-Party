@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="sidebar" class="d-flex">
+      <div id="sidebar-inner">
+        <ul>
+          <li id="close">
+            <i class="fa-solid fa-xmark"></i>
+          </li>
+          <li>
+            <a href="#home">home</a>
+          </li>
+          <li>
+            <a href="#timer">duration</a>
+          </li>
+          <li>
+            <a href="#singers">details</a>
+          </li>
+          <li><a href="#join-us">contact</a></li>
+        </ul>
+      </div>
+      <div class="align-self-center side-control">
+        <i class="fa-solid fa-burger"></i> open
+      </div>
+    </div>
+
+    <header id="home" class="mb-5">
+      <div
+        class="overlay text-white d-flex align-items-center justify-content-center"
+      >
+        <div class="caption text-center">
+          <h1>Egyptian PArty</h1>
+          <p>let's have fun</p>
+        </div>
+      </div>
+    </header>
+    <section
+      id="singers"
+      class="w-50 text-white bg-danger mx-auto text-center mb-5"
+    >
+      <div class="singer">
+        <h4>singer one</h4>
+        <div class="singer-details">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            quos? Vero distinctio doloremque pariatur quos, quidem nisi
+            voluptatum debitis vel optio ipsa. Quidem eos quo amet a
+            consectetur, consequatur asperiores!
+          </p>
+        </div>
+      </div>
+      <div class="singer">
+        <h4>singer two</h4>
+        <div class="singer-details">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            quos? Vero distinctio doloremque pariatur quos, quidem nisi
+            voluptatum debitis vel optio ipsa. Quidem eos quo amet a
+            consectetur, consequatur asperiores!
+          </p>
+        </div>
+      </div>
+      <div class="singer">
+        <h4>singer three</h4>
+        <div class="singer-details">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            quos? Vero distinctio doloremque pariatur quos, quidem nisi
+            voluptatum debitis vel optio ipsa. Quidem eos quo amet a
+            consectetur, consequatur asperiores!
+          </p>
+        </div>
+      </div>
+      <div class="singer">
+        <h4>singer four</h4>
+        <div class="singer-details">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni,
+            quos? Vero distinctio doloremque pariatur quos, quidem nisi
+            voluptatum debitis vel optio ipsa. Quidem eos quo amet a
+            consectetur, consequatur asperiores!
+          </p>
+        </div>
+      </div>
+    </section>
+    <div class="join position-relative mb-5">
+      <div
+        id="timer"
+        class="timer-overlay position-absolute top-0 bottom-0 start-0 end-0"
+      >
+        <div
+          class="d-flex justify-content-between align-items-center w-75 mx-auto h-100"
+        >
+          <div id="days"></div>
+          <div id="hours"></div>
+          <div id="minutes"></div>
+          <div id="seconds"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="join-us" class="col-md-6 text-black text-muted mb-2">
+          <h2>join us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id.</p>
+          <h4>contact info</h4>
+          <p class="mb-4">
+            Why you should hire me writeup Lorem ipsum dolor sit amet,
+            consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+            Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+          </p>
+          <p><i class="fa-solid fa-location-dot"></i> hello@uigrid.com</p>
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            001-000-000-000
+          </p>
+          <div class="social d-flex justify-content-around w-50">
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-behance"></i>
+            <i class="fa-brands fa-google"></i>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <input type="name" placeholder="enter your name" class="mb-2s" />
+          <input type="email" placeholder="please enter your mail" />
+          <textarea
+            name=" message"
+            id="message"
+            placeholder="please write your message here"
+            cols="60"
+            rows="10"
+          ></textarea>
+          <button class="btn btn-danger">send message</button>
+          <span class="" id="counterspan"></span>
+        </div>
+      </div>
+    </div>
+    <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

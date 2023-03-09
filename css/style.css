@@ -1,0 +1,95 @@
+#home {
+  background-image: url("https://routeegypt.com/Egyption-Party/images/events-heavenly-header.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#close {
+  top: 0px;
+  right: 5px;
+  position: absolute;
+  color: white;
+}
+#sidebar-inner {
+  background-color: grey;
+  position: relative;
+}
+#sidebar {
+  top: 0px;
+  bottom: 0;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+#sidebar ul {
+  list-style-type: none;
+  padding: 30px 15px;
+}
+#sidebar ul li {
+  padding: 20px 15px;
+}
+
+#sidebar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+#sidebar ul li a:hover {
+  color: red;
+  cursor: pointer;
+}
+.side-control {
+  color: white;
+  cursor: pointer;
+}
+.singer h4 {
+  cursor: pointer;
+}
+.singer-details {
+  background-color: grey;
+  display: none;
+}
+
+.join {
+  background-image: url("https://routeegypt.com/Egyption-Party/images/invitation-2508607__340.jpg");
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.timer-overlay {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#days,
+#hours,
+#minutes,
+#seconds {
+  padding: 50px 100px;
+  border: 5px solid white;
+}
+
+#days p,
+#hours p,
+#minutes p,
+#seconds p {
+  font-size: 24px;
+  color: white;
+}
+.social i {
+  padding: 15px;
+  border: 2px solid grey;
+}
+input {
+  display: block;
+  margin-bottom: 20px;
+}
